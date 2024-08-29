@@ -1293,6 +1293,15 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - snap-kit-react-native (0.4.0):
+    - React-Core
+    - SnapSDK/SCSDKCreativeKit (~> 1.15.0)
+    - SnapSDK/SCSDKLoginKit (~> 1.15.0)
+  - SnapSDK/SCSDKCoreKit (1.15.0)
+  - SnapSDK/SCSDKCreativeKit (1.15.0):
+    - SnapSDK/SCSDKCoreKit
+  - SnapSDK/SCSDKLoginKit (1.15.0):
+    - SnapSDK/SCSDKCoreKit
   - SocketRocket (0.7.0)
   - Yoga (0.0.0)
 
@@ -1367,10 +1376,12 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - "snap-kit-react-native (from `../node_modules/@snapchat/snap-kit-react-native`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
+    - SnapSDK
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -1511,6 +1522,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  snap-kit-react-native:
+    :path: "../node_modules/@snapchat/snap-kit-react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1583,6 +1596,8 @@ SPEC CHECKSUMS:
   RNGestureHandler: 2282cfbcf86c360d29f44ace393203afd5c6cff7
   RNReanimated: 35f9ac9c3ac42d0497ebd1cce5c39d7687a8493e
   RNScreens: b32a9ff15bea7fcdbe5dff6477bc503f792b1208
+  snap-kit-react-native: 751006199818fccb38c8a01196495167bc25e9fb
+  SnapSDK: 1e68aad748e080f49e3802559b3b76026666ef62
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 2246eea72aaf1b816a68a35e6e4b74563653ae09
 
